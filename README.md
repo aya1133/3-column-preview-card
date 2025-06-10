@@ -4,7 +4,7 @@ A responsive 3-column preview card component showcasing different car types (Sed
 
 ## 🚀 Live Demo
 
-**[View Live Site](https://.github.io/3-column-preview-card/)**
+**[View Live Site]( https://aya1133.github.io/3-column-preview-card/)**
 
 
 ## 📋 Overview
