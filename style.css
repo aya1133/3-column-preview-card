@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Lexend+Deca:wght@100..900&display=swap');
+
+body{
+    margin: 0 auto;
+    padding: o;
+    width: 100%;
+    font-size: 15px;
+    background-color:hsl(0, 0%, 95% );
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+    margin-top:60px ;
+    margin-bottom: 50px;
+}
+.card1{
+    background-color:hsl(31, 77%, 52%) ;
+    height: 400px;
+    width: 60%;
+    padding: 40px;
+    margin: 20px;
+    border-radius: 10px 10px 0px 0px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+img{
+    width: 25%;
+}
+h2{
+    font-family: "big shoulders" ;
+    font-weight: 700;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    color: hsl(0, 0%, 95% );
+}
+p{
+    font-family: "Lexend Deca" ;
+    font-weight: 400;
+    font-size: 1 rem;
+    line-height: 1;
+    color: hsla(0, 0%, 100%, 0.75);
+    justify-content: space-around;
+}
+   
+ button{  
+    width: 60%;
+    border: none;
+    padding: 0.7rem;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: "Lexend Deca"  ;
+    font-size: 1rem;
+    margin-top: 2rem;
+
+}
+#btn1{
+    color:hsl(31, 77%, 52%)  ;
+}
+#btn2{
+    color: hsl(184, 100%, 22%) ;
+}
+#btn3{
+    color: hsl(179, 100%, 13%) ;
+}
+#btn1:hover{
+    background-color:hsl(31, 72%, 43%)  ;
+    color: white;
+}
+#btn2:hover{
+    background-color: hsl(184, 81%, 19%) ;
+    color: white;
+}
+#btn3:hover{
+    background-color: hsl(185, 76%, 29%) ;
+    color: white;
+}
+.card2{
+    background-color:hsl(184, 100%, 22%) ;
+    height: 400px;
+    width: 60%;
+    padding: 40px;
+    margin-top: -20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.card3{
+    background-color: hsl(179, 100%, 13%);
+    height: 400px;
+    width: 60%;
+    padding: 40px;
+    margin: 20px;
+    margin-top: -20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 0 0 10px 10px;
+}
+@media screen and (min-width:768px){
+    
+    .container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        margin: 8rem 0rem 8rem 12rem;
+        max-width: 900px;
+        height: 500px;
+        
+        
+    }
+    .card1 , .card2, .card3{
+        width: 300px;
+        height: 500px;
+        padding: 48px;
+        margin: 0;
+    }
+    .card1{
+        border-radius: 10px 0 0 10px;
+    }
+        .card2{
+        border-radius: 0 ;
+    }
+
+        .card3{
+        border-radius:  0px 10px 10px 0px;
+    }
+    .break::before{
+        content: "";
+        white-space: pre;
+    }
+    p{
+        font-size: 15px;
+        line-height: 1.5;
+        margin-bottom:80px ;
+    }
+}
+
+@media screen and (max-width:768px) {
+     .break::before{
+    content: "\A";
+    white-space: pre;
+    display: block;
+    
+   } 
+}
